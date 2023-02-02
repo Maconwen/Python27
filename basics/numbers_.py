@@ -96,3 +96,15 @@ from math import sqrt
 sqrt(25)  #5
 sqrt(9) #3
 sqrt(3) #1.7320508075688772
+
+
+seconds_in_minute = 60
+minutes_in_hour = 60 
+seconds_in_hour = seconds_in_minute * minutes_in_hour
+hours_in_day = 24
+seconds_in_day = seconds_in_hour * hours_in_day
+days_in_months = 30
+seconds_in_month = seconds_in_day * days_in_months
+months_in_year = 12
+seconds_in_year = seconds_in_month * months_in_year
+print (seconds_in_year)
