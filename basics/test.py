@@ -1,2 +1,5 @@
-string = '     asdkdkdkd   '
-print (string.strip(' '),string.count(''))
+string = str(123456)
+if string[0]+string[1]+string[2] == string[3]+string[4]+string[5]:
+    print ("да")
+else: 
+    print ("нет")
