@@ -83,11 +83,27 @@
 # ind = list13.index('makers')
 # print(ind)
 
-# sort 
+# sort  - метод, сортирует по возрастанию, если передать .sort(reverse=true) - будет сортировать по убыванию. 
 list3 = [34,12,67,12,89,45]
 list3.sort(reverse=True) # [12, 12, 34, 45, 67, 89]
 print(list3) # [89, 67, 45, 34, 12, 12]
 
 list4 = ['a','b','c', 'A','B']
 list4.sort()
-print(list4)
+print(list4) #['A', 'B', 'a', 'b', 'c']
+
+# copy() - возвращает копию списка.
+list1 = [1,2,3]
+list2 = list1.copy()
+list2.append(4)
+print(list1)
+print(list2)
+
+
+# extend() - расширяет список другим списком
+list1 = [1,2,3,4]
+list2 = [5,6,7,8]
+# list1.append(list2)
+# list1 [1,2,3,4, [5,6,7,8]]
+list1.extend(list2)
+# list1 [1,2,3,4,5,6,7,8]
